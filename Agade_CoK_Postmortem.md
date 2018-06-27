@@ -20,7 +20,7 @@ For move ordering I used, in order of priority the [hash move](https://chessprog
 
 I measured that out of a theoretical best of `^0.75` I was pruning my search tree to around `^0.8`. Tested and optimised locally on game states from real games converted to a string format.
 
-I could perform at least 20000 simulations per turn, as a worst case, around 40000 was common with peaks around 80000 (actually like 170000 on some approximately empty states). Depending on the map and the position of the players (less branching in corridors) I could reach depth 2-3 with 4 players, 3-4 with 3 players. With 2 players I don't remember but according to Magus' [cgstats](http://cgstats.magusgeek.com/app/code-of-kutulu/Agade) I would finish 1st 50% more often than second and third. So I would describe the search depth in 1v1 and 1v2 as, acceptable.
+I could perform at least 20000 simulations per turn, as a worst case, around 40000 was common with peaks around 80000 (actually like 170000 on some approximately empty states). Depending on the map and the position of the players (less branching in corridors) I could reach depth 2-3 with 4 players, 3-4 with 3 players. With 2 players I don't remember but according to Magus' [cgstats](http://cgstats.magusgeek.com/app/code-of-kutulu/Agade) I would finish 1st 50% more often than second and third (the numbers have changed now because CG purges game history). So I would describe the search depth in 1v1 and 1v2 as, acceptable.
 
 ## Simulating LIGHT effect
 
