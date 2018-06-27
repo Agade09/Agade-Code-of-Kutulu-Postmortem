@@ -54,7 +54,7 @@ Hopefully I did not make mistakes here. There are probably better approximations
 * `+dist_to_nearest_minion`
 * `+0.025*distance_to_minion` for every minion
 * `+0.015*distance_to_minion_target` for every minion. So a minion targeting the guy right next to me is still bad according to this criterion.
-* `-19*players_I_have_yelled_at`
+* `-19*players_I_have_yelled_at` 19 is to make my AI feel that a yell is worth making an enemy take 1 minion for 20 damage.
 * `-0.35*slashers_targetting_me`
 * `-0.05*wanderers_targetting_me`
 
