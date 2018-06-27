@@ -84,7 +84,7 @@ I only allowed my explorer to YELL and LIGHT (if at least one enemy is further t
 
 ## Conclusion
 
-I finished with 1100 lines, including all testing code. I took an embarrassingly long time to debug my engine, finding out wanderers were either spawning twice too fast or even despawning in my engine on Sunday. Should have debugged using other plays' next turn position as Robostac mentioned.
+I finished with 1100 lines, including all testing code. I took an embarrassingly long time to debug my engine, finding out wanderers were either spawning twice too fast or even despawning in my engine on Sunday. Should have debugged using other players' next turn position as Robostac mentioned.
 
 I could have improved performance and a few other things with more time, perhaps squeezing out a win against blasterpoard (what a terrible name) but I feel like he played better than me, especially considering his lower computation time, so I'm happy to just congratulate him.
 
