@@ -1,4 +1,4 @@
-# Agade Code Royale Postmortem
+# Agade Code of Kutulu Postmortem
 
 I will describe my AI which finished 2nd on the Code of Kutulu competition on Codingame.
 
